@@ -1,5 +1,5 @@
 import React from "react";
-import { TailSpin } from "react-loader-spinner"; // choose spinner you like
+import { TailSpin } from "react-loader-spinner"; 
 
 function Preloader(props) {
   return (

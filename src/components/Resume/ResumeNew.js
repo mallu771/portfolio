@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/Mallikarjun_Resume.pdf";
+
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 
@@ -24,7 +24,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Row className="resume">
-          <Document file={pdf}>
+          <Document file="/Mallikarjun_Resume.pdf">
             <Page pageNumber={1} scale={width > 986 ? 1.9 : 0.8} />
           </Document>
         </Row>
@@ -32,7 +32,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href="/Mallikarjun_Resume.pdf"
             target="_blank"
             className="download-button"
           >
