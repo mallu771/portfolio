@@ -177,7 +177,7 @@ html {
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .navbar-nav .nav-item a {
@@ -438,7 +438,7 @@ html {
 .footer h3 {
   font-size: 1em;
   color: white !important;
-  margin-top: 0.5em !important;
+  margin-top: 2.2em !important;
   margin-bottom: 0.5em !important;
 }
 .footer-icons {
